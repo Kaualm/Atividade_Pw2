@@ -1,0 +1,169 @@
+body {
+font-family: Nunite, sans-serif;
+color: #1c1c1c
+}
+h1, h2, h3 {
+    font-family: Asap, sans-serif;
+    color: #000000
+
+}
+ 
+ /* navegação   */
+
+ nav  { 
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+ }
+
+ nav > a  {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+     font-size: 32px;
+     font-family: yellowtail, serif;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+     width: 100%;
+
+} 
+nav ul li {
+         text-align: center;
+         width: 100%;
+
+
+
+
+}
+nav ul li a {
+       display: inline-block;
+       padding: 10px 0;
+       width: 100% ;
+       text-decoration: none;
+       color: #FFFFFF;
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/baixados.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+
+}
+ header h1{ 
+        color: #FFFFFF;
+
+
+
+ }
+ header p {
+     margin-bottom: 2em;
+
+
+ } 
+
+
+ #Sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center ;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970   ;
+    color: #FFFFFF;
+
+ }
+
+ #Sobre h2  {
+     color: #FFFFFF;
+ }
+
+ #sobre p { 
+   margin-bottom: 2.5em;
+    max-width: 1000px;
+     
+ } 
+ #sobre  .botao { 
+background-color: #f1f1f1;
+color: #1c1c1c;
+ }
+  
+ /*Serviços*/
+    #servilços {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 30px;
+    }
+
+    #serviços div {
+
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-top: 30px ;
+   
+
+    } 
+
+    /*fotos*/
+     #fotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+
+
+
+     } 
+
+     #fotos h2 { 
+
+        margin-bottom: 20px;
+
+     }
+     #fotos img { 
+        width: 100%;
+     }
+
+     /*contato*/
+
+     #contato {
+
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+     }
+
+     #contato h2 { color:#000000;}
+
+     /*rodapep*/
+
+     footer { 
+        text-align: center;
+        padding: 10px;
+        background-color: #191970;
+        color: #FFFFFF;
+
+     }
+     footer a {
+            text-decoration: none;
+            color: #00ffff;
+     }
